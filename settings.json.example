@@ -1,0 +1,10 @@
+{
+    "clientID": "xxxx",
+    "clientSecret": "xxxx",
+    "username": "superadmin@example.com",
+    "password": "xxxxx",
+    "homeCoachDevices": [
+        "70:ee:xx:xx:xx:xx"
+    ],
+    "influxDB_server": "127.0.0.1"
+}
