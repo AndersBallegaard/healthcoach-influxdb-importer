@@ -50,7 +50,7 @@ for homecoach in HOMECOACHES:
             "tags": {
                 "name": name
             },
-            "time": datetime.now(),
+            "time": datetime.now().utcnow(),
             "fields": {
                 "AbsolutePressure": float(dashboard["AbsolutePressure"]),
                 "CO2": int(dashboard["CO2"]),
